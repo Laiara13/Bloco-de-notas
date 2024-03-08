@@ -7,22 +7,14 @@ https://icons.getbootstrap.com/
 https://github.com/Laiara13/Bloco-de-notas.git
 
 git config --global user.email "laiara-leizer@educar.rs.gov.br"
-git config --global user.name "laiara13" 
+git config --global user.name "Laiara13" 
 
 
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 git clone https://github.com/https://github.com/Laiara13/Bloco-de-notas.git
 
-
-
-
-
-
-
-
-
-
+GIT - CRIAR REPOSITORIO (USAR O DOCS)
 
 echo "# Bloco-de-notas" >> README.md
 git init
@@ -33,18 +25,20 @@ git remote add origin https://github.com/Laiara13/Bloco-de-notas.git
 git push -u origin main
 
 
-
+GIT - REPOSITORIO EXISTENTE (USAR O DOCS)
 
 git remote add origin https://github.com/Laiara13/Bloco-de-notas.git
 git branch -M main
 git push -u origin main
 
 
+Clonando um repositorio do gihub para o pc, para n precisar baixar as pastas e tudo mais
 
+git clone git https://github.com/Laiara13/Bloco-de-notas.git
 
+A cada modificação fazer um git commit e um git push
 
-
-
-
-git commit -m "versao 3"
+git commit -m "versao 4"
 git push -u origin main
+
+
