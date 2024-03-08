@@ -1,0 +1,49 @@
+https://getbootstrap.com/docs/5.3/components/card/
+
+https://www.luiztools.com.br/curso-nodejs?utm_source=blog&utm_medium=link&utm_campaign=auto&utm_content=meus-cursos
+
+https://icons.getbootstrap.com/
+
+https://github.com/Laiara13/Bloco-de-notas.git
+
+git config --global user.email "laiara-leizer@educar.rs.gov.br"
+git config --global user.name "laiara13" 
+
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+git clone https://github.com/https://github.com/Laiara13/Bloco-de-notas.git
+
+
+
+
+
+
+
+
+
+
+
+echo "# Bloco-de-notas" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Laiara13/Bloco-de-notas.git
+git push -u origin main
+
+
+
+
+git remote add origin https://github.com/Laiara13/Bloco-de-notas.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+

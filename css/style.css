@@ -1,0 +1,9 @@
+#corpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+#carde {
+    margin-top: 10vh;
+    display: flex;
+    margin-left: 10vw;
+}
