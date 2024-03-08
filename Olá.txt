@@ -38,7 +38,10 @@ git clone git https://github.com/Laiara13/Bloco-de-notas.git
 
 A cada modificação fazer um git commit e um git push
 
-git commit -m "versao 4"
+git commit -m "versao 5"
 git push -u origin main
 
 
+
+// localStorage.setItem('notes', data);
+// data = JSON.stringify(data);

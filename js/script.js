@@ -39,10 +39,32 @@ btnSaveNote.addEventListener("click", (evt)=>{
     let data = {
         id: document.querySelector("#input-id").value,
         title: document.querySelector("#input-title").value,
-        content: document.querySelector("#input-content").value,
+        content: document.querySelector("#input-content").value,      
         lastTime: new Date().getTime(),
+
     }
+
 });
+
+const listnotes = () => {
+    loadNOTES();
+};
+
+const loadNotes = () =>{
+    let notes = localStorage.getItem('notes');
+
+    if(!notes){
+        notes = [];
+    }
+    else{
+        notes = JSON.parse(notes);
+    }
+
+    return notes;
+}
+
+
+
 
 /************************************************
 
@@ -51,11 +73,27 @@ btnSaveNote.addEventListener("click", (evt)=>{
 ************************************************/
 
 const saveNote = (data) => {
-    data = JSON.stringify(data);
 
-    console.log(data);
     localStorage.getItem('notes');//se não tiver notes ele retorna um valor nulo
 
-    localStorage.setItem('notes', data);
+    if(!notes){
+        notes = [];
+    }
+
+    else{
+        notes = JSON.parse(notes);
+    }
+
+    if(data.id === undefined){
+        data.id = new Date().getTime();  
+        notes.push(data);
+    }
+    else{
+
+    }
+
+    data = JSON.stringify(data);
+
+    localStorage.setItem('notes', notes);
 
 };
